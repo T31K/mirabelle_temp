@@ -443,6 +443,39 @@ footer{
   font-weight: 900;
 }
 
+.w-90{
+  width:90%;
+}
+
+.w-80{
+  width:80%;
+}
+
+.w-70{
+  width:70%;
+}
+
+.w-60{
+  width:60%;
+}
+
+.w-40{
+  width:40%;
+}
+
+.w-30{
+  width:30%;
+}
+
+.w-20{
+  width:20%;
+}
+
+.w-10{
+  width:10%;
+}
+
+
 /* Overlay */
 [data-overlay] {
   position: relative;
@@ -14668,7 +14701,6 @@ body.offcanvas-open .sticky-header {
 
 .widget-list li a:hover {
   color: #333333;
-  border-color: rgba(51, 51, 51, 0.2);
 }
 
 .widget-list li .count {
