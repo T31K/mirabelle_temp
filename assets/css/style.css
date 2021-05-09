@@ -112,7 +112,7 @@ html {
 }
 
 body {
-  font-family: "Futura", Arial, Helvetica, sans-serif;
+  font-family: "Futura", Arial, Helvetica, sans-serif !important;
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
@@ -226,6 +226,9 @@ hr {
   overflow: hidden;
 }
 
+footer{
+  background: #F8F8F8;
+}
 .section,
 .main-wrapper {
   float: left;
@@ -3253,6 +3256,9 @@ body.offside-header-left {
   display: flex;
 }
 
+.header-login i{
+  color: #7E7E7E;
+}
 /* Header Language & Currency */
 .header-lan-curr {
   font-size: 16px;
@@ -3521,6 +3527,10 @@ body.offside-header-left {
   position: relative;
 }
 
+.site-main-menu > ul > li > a > .menu-text:hover{
+  color: var(--brandPink);
+}
+
 .site-main-menu > ul > li > a > .menu-text::after {
   position: absolute;
   bottom: -3px;
@@ -3538,7 +3548,7 @@ body.offside-header-left {
   -webkit-transform-origin: 100% 50%;
       -ms-transform-origin: 100% 50%;
           transform-origin: 100% 50%;
-  background-color: #333333;
+  background-color: var(--brandPink);
 }
 
 .site-main-menu > ul > li.has-children > a::before {
@@ -3560,7 +3570,7 @@ body.offside-header-left {
 }
 
 .site-main-menu > ul > li:hover > a {
-  color: #333333;
+  color var(--brandPink);
 }
 
 .site-main-menu > ul > li:hover > a > .menu-text::after {
@@ -4493,7 +4503,7 @@ body.offcanvas-open .sticky-header {
 }
 
 .offcanvas-menu > ul > li > a:hover {
-  color: #333333;
+  color: var(--brandPink);
 }
 
 .offcanvas-menu > ul > li .menu-expand {
@@ -4564,7 +4574,7 @@ body.offcanvas-open .sticky-header {
 }
 
 .offcanvas-menu > ul > li .sub-menu li > a:hover {
-  color: #333333;
+  color: var(--brandPink);
 }
 
 .offcanvas-menu > ul > li .sub-menu li.active > .menu-expand::after {
@@ -8689,22 +8699,22 @@ body.offcanvas-open .sticky-header {
   color: #333333;
 }
 
-.section-title .title.title-icon-both::before {
+.title.title-icon-both::before {
   padding-right: 10px;
   content: url("../images/title/title-decor-left.png");
 }
 
-.section-title .title.title-icon-both::after {
+ .title.title-icon-both::after {
   padding-left: 10px;
   content: url("../images/title/title-decor-right.png");
 }
 
-.section-title .title.title-icon-left::before {
+ .title.title-icon-left::before {
   padding-right: 10px;
   content: url("../images/title/title-decor-left.png");
 }
 
-.section-title .title.title-icon-right::after {
+.title.title-icon-right::after {
   padding-left: 10px;
   content: url("../images/title/title-decor-right.png");
 }
