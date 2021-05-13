@@ -13,8 +13,7 @@ section.timeline .container {
 }
 
 section.timeline div.container div.wrapper {
-  background: lightcoral;
-  padding: 3.5rem;
+  padding: 0.5rem;
 }
 
 
@@ -27,7 +26,7 @@ section.timeline .sessions {
 
 section.timeline li {
   padding-bottom: 1.5rem;
-  border-left: 1px solid #abaaed;
+  border-left: 1px solid var(--brandBlue);
   position: relative;
   padding-left: 20px;
   margin-left: 10px;
@@ -43,9 +42,9 @@ section.timeline li:before {
   width: 15px;
   height: 15px;
   background: white;
-  border: 1px solid #4e5ed3;
-  box-shadow: 3px 3px 0px #bab5f8;
-  box-shadow: 3px 3px 0px #bab5f8;
+  border: 1px solid var(--brandPink);
+  box-shadow: 3px 3px 0px var(--brandRed);
+  box-shadow: 3px 3px 0px var(--brandRed);
   border-radius: 50%;
   position: absolute;
   left: -10px;
@@ -59,13 +58,13 @@ section.timeline .time {
 
 @media screen and (min-width: 601px) {
   .time {
-    font-size: 0.9rem;
+    /* font-size: 18px; */
   }
 }
 @media screen and (max-width: 600px) {
   .time {
     margin-bottom: 0.3rem;
-    font-size: 0.85rem;
+    /* font-size: 18px; */
   }
 }
 
@@ -75,9 +74,3 @@ section.timeline p {
   margin-top: 0.4rem;
 }
 
-@media screen and (max-width: 600px) {
-  section.timeline p {
-    font-size: 0.9rem;
-  }
-}
-}

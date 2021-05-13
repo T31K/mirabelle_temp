@@ -612,6 +612,7 @@ body.homepage-bg1.offcanvas-open {
   height: 40px;
   text-align: center;
   color: #FFFFFF;
+  border-radius: 2em;
   background-color: #F8796C;
 }
 
