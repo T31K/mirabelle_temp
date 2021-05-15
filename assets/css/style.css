@@ -9093,6 +9093,11 @@ body.offcanvas-open .sticky-header {
 /*----------------------------------------*/
 /* 08.01. Sale Banner CSS */
 /* Sale Banner Style One CSS */
+
+span.bg{
+  opacity: 80% !important;
+}
+
 .sale-banner1 {
   position: relative;
   width: 100%;
