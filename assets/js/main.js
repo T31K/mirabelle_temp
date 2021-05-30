@@ -751,6 +751,7 @@
         })
     })
 
+    $('.owl-carousel').owlCarousel();
     /*--
         On Load Function
     -----------------------------------*/
